@@ -17,7 +17,8 @@
             "nome": "Theodore Bagwell",
             "biografia": "Presidiario da Fox River, acusado por diversos crimes",
             "recomendacao": "acionar alarme da penitenciaria",
-            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/t-bag1.jpg"
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/t-bag1.jpg",
+            "pena": "365"
         }
     ]
 }
