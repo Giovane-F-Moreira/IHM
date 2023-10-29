@@ -1,71 +1,70 @@
-# IHM
 
-<table><tr><th colspan="1" rowspan="4" valign="top"></th><th colspan="1">DISCIPLINA</th><th colspan="1"><b>INTERFACE HOMEM-MÁQUINA</b></th></tr>
-<tr><td colspan="1" valign="top">Nota máxima</td><td colspan="1" valign="top"><b>10 Pontos</b></td></tr>
-<tr><td colspan="1" valign="top">Professor</td><td colspan="1" valign="top"><b>Luis Paulo da Silva Carvalho</b></td></tr>
-<tr><td colspan="1">Data de entrega</td><td colspan="1"><b>01/11/2023</b></td></tr>
-</table>
+# Identify criminal
 
-1. I**ntrodução** 
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-Este trabalho destina-se a avaliar os alunos da disciplina de  **INTERFACE HOMEM MÁQUINA** em relação ao conteúdo e práticas compreendidos em sala de aula. Especificamente, deve ser criado um SISTEMA SENSÍVEL A CONTEXTO (SSC), contemplando duas  etapas:  (1)  desenvolvimento  de  uma  simulação  baseada  em  um  mini-mundo;  e  (2)  criação  de  features  de  orientação  a comportamento (BDD) considerando a simulação feita na etapa 1.
+![GitHub repo size](https://img.shields.io/github/repo-size/Giovane-F-Moreira/IHM)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Giovane-F-Moreira/IHM)
+![Lines of code](https://tokei.rs/b1/github/Giovane-F-Moreira/IHM)
+![GitHub language count](https://img.shields.io/github/languages/count/Giovane-F-Moreira/IHM)
+![GitHub top language](https://img.shields.io/github/languages/top/Giovane-F-Moreira/IHM)
+![GitHub last commit](https://img.shields.io/github/last-commit/Giovane-F-Moreira/IHM)
+![GitHub forks](https://img.shields.io/github/forks/Giovane-F-Moreira/IHM)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Giovane-F-Moreira/IHM)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Giovane-F-Moreira/IHM)
+![GitHub followers](https://img.shields.io/github/followers/Giovane-F-Moreira?label=Follow)
 
-2. **Escopo do trabalho**
+<img src="https://img.freepik.com/premium-vector/face-recognition-low-poly-wireframe-banner-template-futuristic-computer-technology-smart-identification-system-poster-polygonal-design-facial-scan-3d-mesh-art-with-connected-dots_201274-4.jpg" alt="face-recognition">
 
-O  trabalho  deve  ser  realizado INDIVIDUALMENTE.  Ele  consiste  na  concretização  de  um  SSC,  escrito  em  linguagem  de programação PYTHON, devendo estar restrito aos conteúdos teóricos e práticos vistos durante as aulas.
+> Este projeto é uma atividade avaliativa da materia Interface Homem e Maquina.
+### Ajustes e melhorias
 
-3. **Instruções**
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-As seguintes instruções devem ser atentamente observadas e cumpridas:
+- [x] Desenvolver reconhecimento de face
+- [ ] Desenvolver simulação
+- [ ] Desenvolver BDD
+- [ ] Desenvolver Frontend
 
-1. **ETAPA 1**
+## 💻 Pré-requisitos
 
-\1.  O aluno deve escolher o tema do seu trabalho e enviar para o meu e-mail (luispscarvalho@gmail\.com) sua decisão o 
+<details>
+  <summary><h3>Requisitos para construção do software</h3></summary>
 
-quanto  antes  e  até  o  dia  11/10/2023.  A  partir  daí  deverei  acompanhar  o  andamento  dos  trabalhos.  O acompanhamento visa identificar e resolver possíveis problemas e dificuldades de desenvolvimento;
+  <details>
+      <summary>Introdução</summary>
+  Este trabalho destina-se a avaliar os alunos da disciplina de  **INTERFACE HOMEM MÁQUINA** em relação ao conteúdo e práticas compreendidos em sala de aula. Especificamente, deve ser criado um SISTEMA SENSÍVEL A CONTEXTO (SSC), contemplando duas  etapas:  (1)  desenvolvimento  de  uma  simulação  baseada  em  um  mini-mundo;  e  (2)  criação  de  features  de  orientação  a comportamento (BDD) considerando a simulação feita na etapa 1.
+  
+  </details>
 
-\2.  Ainda aceitarei a escolha de um tema após o dia 11/10/2023, todavia, já no dia 12/10/2023 (um dia após o prazo final 
+  <details>
+    <summary> Etapa 1 </summary>
+\1.  O aluno deve escolher o tema do seu trabalho
 
-para definição do tema) será descontado 1.0 (um ponto) da nota total e, para cada dia após 12/10/2023, serão descontados 0.5 pontos da nota final; 
-
-\3.  De  forma  alguma  o  mini-mundo  desenvolvido  por  mim  em  sala  de  aula,  SOCORRO  INTELIGENTE,  poderá  ser 
-
-reutilizado para realizar o seu trabalho;
-
-\4.  Não será permitida a repetição de um tema\. Ou seja, a avaliação consistirá da escolha de um tema por cada trabalho 
-
-a ser apresentado. À medida que os temas forem enviados para mim eu realizarei o controle para garantir a não repetição e exigirei um tema novo, caso o escolhido já tenha sido selecionado anteriormente por algum outro aluno. Desta forma, quanto mais cedo um tema for definido e comunicado para mim através do meu e-mail menor deve ser a probabilidade de redefinição ou escolha de outro tema;
-
-\5.  O SSC deve ser construído utilizando os recursos apresentados e exemplificados durante as aulas: linguagem de 
+\2.  O SSC deve ser construído utilizando os recursos apresentados e exemplificados durante as aulas: linguagem de 
 
 programação PYTHON e bibliotecas de suporte a reconhecimento facial (face\_recognition e  opencv) e simulações (simpy). **Tais bibliotecas e frameworks são obrigatórios**. Todavia, se quiser e achar necessário, o aluno pode adicionar outras bibliotecas e frameworks para que possam automatizar melhor sua solução;
 
-\6.  Depois de criar a simulação, o aluno deverá realizar uma captura de vídeo para explicar o tema e o funcionamento da 
+\3.  Depois de criar a simulação, o aluno deverá realizar uma captura de vídeo para explicar o tema e o funcionamento da 
 
-simulação. O vídeo deverá ser entregue para mim. O vídeo pode ser enviado para o youtube ou para o google drive. O link para o vídeo deve ser testado para verificar se é possível alguém realizar acesso externo a ele;
+simulação. O vídeo deverá ser entregue. O vídeo pode ser enviado para o youtube ou para o google drive. O link para o vídeo deve ser testado para verificar se é possível alguém realizar acesso externo a ele;
 
-\7.  Para  cada  tema  deve  ser  definido  um  arquivo  de  configuração,  na  forma  de  um  dicionário  externo  JSON, 
+\4.  Para  cada  tema  deve  ser  definido  um  arquivo  de  configuração,  na  forma  de  um  dicionário  externo  JSON, 
 
 possibilitando a configuração e execução da simulação;
 
-\8.  A simulação deverá ser composta de, pelo  menos, quatro  processos independentes (criados como geradores de 
+\5.  A simulação deverá ser composta de, pelo  menos, quatro  processos independentes (criados como geradores de 
 
 evento), sendo que um desses processos deve ser baseado em reconhecimento de face;
 
-\9.  **ATENÇÃO: Devem servir como base os scripts PYTHON exemplificados em sala de aula e não os dos vídeos**\. Trata-
+\6.  **ATENÇÃO: Devem servir como base os scripts PYTHON exemplificados em sala de aula e não os dos vídeos**\. Trata-
 
 se de uma medida para evitar que a biblioteca de reconhecimento de faces seja utilizada para reconhecer uma face por vez. O aceitável é ela ser usada para reconhecer mais de uma face por cada imagem.
+  
+  </details>
 
-
-
-<table><tr><th colspan="1" rowspan="4"></th><th colspan="1">DISCIPLINA</th><th colspan="1"><b>INTERFACE HOMEM-MÁQUINA</b></th></tr>
-<tr><td colspan="1" valign="top">Nota máxima</td><td colspan="1" valign="top"><b>10 Pontos</b></td></tr>
-<tr><td colspan="1" valign="top">Professor</td><td colspan="1" valign="top"><b>Luis Paulo da Silva Carvalho</b></td></tr>
-<tr><td colspan="1">Data de entrega</td><td colspan="1"><b>01/11/2023</b></td></tr>
-</table>
-
-2. **ETAPA 2**
-
+  <details>
+  <summary> ETAPA 2</summary>
 \1.  Uma  segunda  versão  do  SSC  deve  ser  criada  aproveitando  o  código-fonte  da  primeira  versão  (ETAPA  1)  para 
 
 mostrar a aplicação de Desenvolvimento Orientado a Comportamento (BDD);
@@ -80,13 +79,16 @@ Comportamento;
 
 \4.  Depois de recriar o SSC utilizando os recursos de BDD, o aluno deverá realizar uma captura de vídeo para explicar o 
 
-tema e o funcionamento. O vídeo deverá ser entregue para mim. O vídeo pode ser enviado para o youtube ou para o google drive. O link para o vídeo deve ser testado para verificar se é possível alguém realizar acesso externo a ele;
+tema e o funcionamento. O vídeo deverá ser entregue. O vídeo pode ser enviado para o youtube ou para o google drive. O link para o vídeo deve ser testado para verificar se é possível alguém realizar acesso externo a ele;
 
 \5.  Todos os processos definidos e criados durante a ETAPA 1 deverão ser adaptados como features executáveis, o que 
 
 inclui o reconhecimento de face.
+  
+  </details>
 
-3. **INSTRUÇÕES PARA AS ETAPAS 1 E 2**
+  <details>
+<summary><b>INSTRUÇÕES PARA AS ETAPAS 1 E 2</b></summary>
 
 \1.  Os projetos PYTHON das ETAPAS 1 e 2 devem ser entregues em arquivos (\.zip) separados\. Isso tornará possível 
 
@@ -99,40 +101,109 @@ que eu avalie cada etapa de forma independente. Cada entrega deve conter: os scr
 \4.  Você pode (ou DEVE) iniciar a criação da simulação (ETAPA 1) logo agora\. Não é necessário esperar as aulas sobre 
 
 BDD (ETAPA 2) para iniciar a implementação;
+</details>
 
-\5.  Somente oferecerei suporte, em forma de atendimentos, até o dia 25/10/2023\. Isso evitará que eu tenha que atender 
-
-a muitas demandas de alunos retardatários, que atrasam demais o desenvolvimento das simulações apesar de todos os avisos dados em sala de aula.
-
-4. **ITENS A SEREM ENTREGUES/REALIZADOS** 
-1. O tema que será desenvolvido. O aluno deverá propor o tema, mas eu deverei aprová-lo (envie a proposta para o meu email: luispscarvalho@gmail.com);
-1. O código-fonte da simulação do SSC escrito em linguagem PYTHON (ETAPA 1);
-
-O código-fonte da versão Orientada a Comportamento do SSC também escrito em PYTHON (ETAPA 2);
-
-3. Os vídeos das etapas 1 e 2.
-4. **Barema**
-
-O cálculo da nota da avaliação obedecerá aos seguintes critérios:
+</details>
 
 
+### Requisitos para execução do software
 
-<table><tr><th colspan="1" rowspan="4"></th><th colspan="1">DISCIPLINA</th><th colspan="1"><b>INTERFACE HOMEM-MÁQUINA</b></th></tr>
-<tr><td colspan="1" valign="top">Nota máxima</td><td colspan="1" valign="top"><b>10 Pontos</b></td></tr>
-<tr><td colspan="1" valign="top">Professor</td><td colspan="1" valign="top"><b>Luis Paulo da Silva Carvalho</b></td></tr>
-<tr><td colspan="1">Data de entrega</td><td colspan="1"><b>01/11/2023</b></td></tr>
+Software construido e **TESTADO** com as seguintes tecnologias:
+
+Ubuntu 20.04    \
+Python 3.8.10   \
+face-recognition==1.3.0         \
+face-recognition-models==0.3.0     \
+opencv-python==4.8.0.76     \
+simpy==4.0.2          
+
+Instale as dependencias com comando:
+```
+sudo pip3 install -r requirements.txt
+```
+
+<!--Antes de começar, verifique se você atendeu aos seguintes requisitos:
+-Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+
+<!---* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
+* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.--->
+
+<!---## ☕ Instalando Geekflix
+
+Para instalar o Geekflix, siga estas etapas:
+
+Linux e macOS:
+```
+<comando_de_instalação>
+```
+
+Windows:
+```
+<comando_de_instalação>
+```
+--->
+## 🚀 Utilizando o Identify criminal
+
+Para utilizar o Identify criminal, siga estas etapas:
+
+1 - Para utilizar o projeto basta ter o **Visual Studio Code**.  <br><br>
+  1.1 - Intalando VS Code: https://www.youtube.com/watch?v=49K-Zxc8A7A  \
+
+2 - Exxecute o arquivo principal no terminal
+
+```
+python3 autorizador_facial.py
+```
+
+## 📫 Contribuindo para Identify criminal
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+Para contribuir com Geekflix, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/64364499?v=4" width="100px;" alt="Foto do Giovane Fernandes no GitHub"/><br>
+        <sub>
+          <b>Giovane Fernandes</b>
+        </sub>
+        </hr>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <sub>
+        <b>Criador do Projeto</b>
+      </sub>
+    </td>
+  </tr>
 </table>
 
 
+## 😄 Seja um dos contribuidores<br>
 
-|NOTA DA AVALIAÇÃO||
-| - | :- |
-|ETAPA 1|VALOR|
-|(a) Código-fonte **funcionando**|8|
-|(b) Vídeo de apresentação|2|
-|ETAPA 2|VALOR|
-|(a) Código-fonte **funcionando**|8|
-|(b) Vídeo de apresentação|2|
-|TOTAL (ETAPA 1 + ETAPA2 / 2)|10|
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-**ATENÇÃO**: A ocorrência de plágio (cópia de outros trabalhos) será punida, com o aluno obtendo uma nota ZERO. A ocorrência também será notificada à coordenação do curso.
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
+
+
+
+
+
+
