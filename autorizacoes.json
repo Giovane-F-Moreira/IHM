@@ -1,0 +1,24 @@
+{
+    "autorizados": [
+        {
+            "nome": "Brad Bellick",
+            "biografia": "Líder dos agentes da Penitenciária Estadual de Fox River",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/belick1.png"
+        },
+        {
+            "nome": "Sara Tancredi",
+            "biografia": "Médica que trabalha na ala da enfermaria na Penitenciária Estadual de Fox River",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/sara1.jpg"
+        }
+    ],
+
+    "suspeitos": [
+        {
+            "nome": "Theodore Bagwell",
+            "biografia": "Presidiario da Fox River, acusado por diversos crimes",
+            "recomendacao": "acionar alarme da penitenciaria",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/t-bag1.jpg",
+            "pena": "365"
+        }
+    ]
+}
