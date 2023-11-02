@@ -1,23 +1,50 @@
 {
     "autorizados": [
         {
+            "id": 1,
             "nome": "Brad Bellick",
             "biografia": "Líder dos agentes da Penitenciária Estadual de Fox River",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/belick1.png"
         },
         {
+            "id": 2,
             "nome": "Sara Tancredi",
             "biografia": "Médica que trabalha na ala da enfermaria na Penitenciária Estadual de Fox River",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/sara1.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Paul kellerman",
+            "biografia": "Serviu no Exército dos EUA como parte do 2º Batalhão de Rangers , do 75º Regimento de Rangers e, eventualmente, das Forças Especiais dos EUA",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/paul_kellerman.jpg"
         }
     ],
 
     "suspeitos": [
         {
+            "id": 1,
             "nome": "Theodore Bagwell",
             "biografia": "Presidiario da Fox River, acusado por diversos crimes",
             "recomendacao": "Acionar alarme da penitenciaria",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/t-bag1.jpg",
+            "pena": "730",
+            "detento": "sim"
+        },
+        {
+            "id": 2,
+            "nome": "Fernando Sucre",
+            "biografia": "Presidiario da Fox River, acusado de assalto",
+            "recomendacao": "Acionar alarme da penitenciaria",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/sucre1.jpg",
+            "pena": "240",
+            "detento": "sim"
+        },
+        {
+            "id": 3,
+            "nome": "Lincoln Burrows",
+            "biografia": "Presidiario da Fox River, acusado pelo assassinato do irmão do vice-presidente",
+            "recomendacao": "Acionar alarme da penitenciaria",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/lincoln1.jpg",
             "pena": "365",
             "detento": "sim"
         }
