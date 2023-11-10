@@ -3,23 +3,22 @@
         {
             "id": 1,
             "nome": "Brad Bellick",
-            "biografia": "Líder dos agentes da Penitenciária Estadual de Fox River",
+            "biografia": "L\u00edder dos agentes da Penitenci\u00e1ria Estadual de Fox River",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/belick1.png"
         },
         {
             "id": 2,
             "nome": "Sara Tancredi",
-            "biografia": "Médica que trabalha na ala da enfermaria na Penitenciária Estadual de Fox River",
+            "biografia": "M\u00e9dica que trabalha na ala da enfermaria na Penitenci\u00e1ria Estadual de Fox River",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/sara1.jpg"
         },
         {
             "id": 3,
             "nome": "Paul kellerman",
-            "biografia": "Serviu no Exército dos EUA como parte do 2º Batalhão de Rangers , do 75º Regimento de Rangers e, eventualmente, das Forças Especiais dos EUA",
+            "biografia": "Serviu no Ex\u00e9rcito dos EUA como parte do 2\u00ba Batalh\u00e3o de Rangers , do 75\u00ba Regimento de Rangers e, eventualmente, das For\u00e7as Especiais dos EUA",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/paul_kellerman.jpg"
         }
     ],
-
     "suspeitos": [
         {
             "id": 1,
@@ -27,7 +26,7 @@
             "biografia": "Presidiario da Fox River, acusado por diversos crimes",
             "recomendacao": "Acionar alarme da penitenciaria",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/t-bag1.jpg",
-            "pena": "730",
+            "pena": 2850,
             "detento": "sim"
         },
         {
@@ -36,16 +35,25 @@
             "biografia": "Presidiario da Fox River, acusado de assalto",
             "recomendacao": "Acionar alarme da penitenciaria",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/sucre1.jpg",
-            "pena": "240",
+            "pena": 1480,
             "detento": "sim"
         },
         {
             "id": 3,
             "nome": "Lincoln Burrows",
-            "biografia": "Presidiario da Fox River, acusado pelo assassinato do irmão do vice-presidente",
+            "biografia": "Presidiario da Fox River, acusado pelo assassinato do irm\u00e3o do vice-presidente",
             "recomendacao": "Acionar alarme da penitenciaria",
             "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/lincoln1.jpg",
-            "pena": "365",
+            "pena": 1365,
+            "detento": "sim"
+        },
+        {
+            "id": 4,
+            "nome": "John Abruzzi",
+            "biografia": "Presidiario da Fox River, e chefe da m\u00e1fia \u00edtalo-americano sendo Don da fam\u00edlia criminosa Abruzzi",
+            "recomendacao": "Acionar alarme da penitenciaria",
+            "foto": "/media/gio/Arquivos_M2/Workspace/IHM/faces/abruzzi.jpg",
+            "pena": 1627,
             "detento": "sim"
         }
     ]
