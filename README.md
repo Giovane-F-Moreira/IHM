@@ -22,7 +22,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [X] Desenvolver reconhecimento de face
-- [ ] Desenvolver simulação
+- [X] Desenvolver simulação
 - [ ] Desenvolver BDD
 - [ ] Desenvolver Frontend
 
@@ -149,7 +149,7 @@ Windows:
 
 Para utilizar o Identify criminal, siga estas etapas:
 
-1 - Para utilizar o projeto basta ter o **Visual Studio Code**.  `<br><br>`
+1 - Para utilizar o projeto basta ter o **Visual Studio Code**.  \
   1.1 - Intalando VS Code: https://www.youtube.com/watch?v=49K-Zxc8A7A  \
 
 2 - Exxecute o arquivo principal no terminal
@@ -195,7 +195,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores`<br>`
+## 😄 Seja um dos contribuidores
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
