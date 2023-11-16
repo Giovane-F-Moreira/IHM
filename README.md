@@ -22,7 +22,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Desenvolver reconhecimento de face
-- [ ] Desenvolver simulação
+- [X] Desenvolver simulação
 - [ ] Desenvolver BDD
 - [ ] Desenvolver Frontend
 
